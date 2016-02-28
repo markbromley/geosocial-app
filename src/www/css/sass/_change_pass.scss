@@ -1,0 +1,11 @@
+#edit_password_page{
+    form{
+        margin-top: 10px;
+    }
+    input:last-of-type{
+        /*border-bottom-right-radius: $table_border_rad;*/
+    }
+    .btn{
+        height: $little_btn_height;
+    }
+}

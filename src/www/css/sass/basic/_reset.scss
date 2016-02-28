@@ -1,0 +1,42 @@
+/*reset mobile landscape css*/
+body{
+    /*Below prevent the callout on tap hold or user selection*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+  /*Below prevent elements to be highlighted on tap*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    /* Prevent text resize on orientation change, useful for web-apps */
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+
+
+  /*Below try to prevent the bounce effect on the whole page where possible*/
+  overflow: hidden;
+}
+/*Below is bare bones CSS reset for the mobile landscape*/
+html, body, div, section, article, form, fieldset, legend, label{
+ margin: 0;
+ padding: 0; 
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*Forms below here*/
+input, textarea, select {
+    /*Prevent apple from adding their default OSX/ iOS appearance to web forms*/
+   -webkit-appearance: none;
+   outline: none;
+   border-radius: 0;
+ }
+

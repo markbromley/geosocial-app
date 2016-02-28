@@ -1,0 +1,194 @@
+#home_page,
+#friend_page,
+#blocks_page,
+#profile_1_page,
+#post_detail_page{
+    /*Below CSS targets the user results spheres*/
+    text-align: center;
+    a{
+        position: relative;
+        position:relative;
+        padding:0;
+        margin-left:-1px;
+    }
+    figure{
+        position: relative;
+        display: block;
+        min-width: 90px;
+        margin: 0px auto 15px;
+        text-align: center;
+    }
+    figure>span{
+        position: relative;
+        display: block;
+        margin: 0px auto 0px;
+        width: 75px;
+        height: 75px;
+        border-radius: 0px;
+        z-index: 10;
+    }
+    span>img{
+        width: 75px;
+        height: 75px;
+        border-radius: 0px;
+    }
+}
+#home_page, #friend_page, #profile_1_page, #blocks_page{
+/*Below CSS targets the user results spheres*/
+    text-align: center;
+    /*padding-top: 3px;*/
+    .tab_view{
+        margin-left: 5px;
+        nav, ul{
+            position: relative;
+            display: block;
+            margin:0;
+            padding:0;
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            overflow: hidden;
+        }
+        ul{
+            margin-top: 5px;
+            list-style-type:none;
+            margin-bottom: 10px;
+        }
+        li{
+            display:inline-block;
+            height: 30px;
+            width: 24%;
+            margin-left: -5px;
+            background-color: transparent;
+            border: 1px solid $theme_color;
+        }
+        button, button:focus{
+            width: 100%;
+            height: 100%;
+            outline: none;
+            border: none;
+            box-shadow: none;
+            color: $theme_color;
+            line-height: 1.8em
+        }
+        li.active{
+            background-color: $theme_color;
+        }
+        .active button{
+            color: white;
+        }
+        li:first-of-type{
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+        li:last-of-type{
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+    }/* end .tab_view */
+
+    figure{
+        position: relative;
+        display: inline-block;
+        width: 104px;
+        height: 103px;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    figure:active span:before{
+        /*This adds a black hover circle over user profiles...*/
+        content: "";
+        position: absolute;
+        left: 3px;
+        top: 3px;
+        width: 90px;
+        height: 100%;
+        border-radius: 1000px;
+        background: rgba(0,0,0,0.1);
+    }
+    figure>span{
+        position: relative;
+        background-color: #FFFFFF;
+        background-image: url("./assets/user_default.png");
+        background-size: 100%;
+        display: block;
+        width: 105px;
+        height: 105px;
+        z-index: 10;
+    }
+
+    figure>span>img{
+        width: 105px;
+        height: 105px;
+        margin:0;
+        padding:0;
+    }
+
+    /*Below CSS targets the user results sphere's text*/
+    figure>figcaption{
+        top: -105px;
+        left: 0px;
+        z-index: 11;
+        position: relative;
+        display: table-cell;
+        width: 105px;
+        height: 105px;
+        text-align:left;
+        text-indent: 6px;
+        vertical-align: bottom;
+        background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(59%, rgba(0,0,0,0)), color-stop(99%, #000), color-stop(100%, #000));
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
+        background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
+        background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+
+    }
+
+    figure>figcaption>p{
+        position: relative;
+        /* display: table-cell; */
+        text-decoration: none;
+        margin-top: -12px;
+        font-size: 9.9px;
+        font-weight: 400;
+        font-size: 9px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        color: #FFFFFF;
+        vertical-align: bottom;
+    }
+    figure>figcaption>p:first-of-type{
+        color: rgb(255,255,255);
+    }
+
+    figure>figcaption>p:last-of-type{
+        font-size: 8px;
+    }
+
+    .friend_marker:before{
+        font-size: 7px;
+    }
+
+    .buddy .friend_marker:before{
+        color: rgb(110, 110, 255);
+    }
+
+    .colleague .friend_marker:before{
+        color: rgb(142, 204, 142);
+    }
+
+    .college .friend_marker:before{
+        color: rgb(240, 83, 83);
+    }
+
+    .family .friend_marker:before{
+        color: rgb(228, 228, 68);
+    }
+
+}

@@ -1,0 +1,74 @@
+/*popover css below
+*/
+.popover, .popover_inner{
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+
+}
+.popover{
+    position: relative;
+    z-index: 10000000000000000;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.popover_inner .btn:active{
+    background: rgb(234,234,234) !important;
+}
+.cancel_btn:active{
+    background: rgb(187, 0, 0);
+}
+.popover_inner{
+    position: absolute;
+    display: block;
+    min-height: 88px;
+    width: 100%;
+    bottom: -30px;
+    left: 0;
+    right:0;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    background: rgba(255,255,255,1);
+    border-top: 1px solid #007ba4;
+}
+.popover_inner .btn, .popover_inner .cancel_btn{
+    min-width: 150px;
+    width: 95%;
+    height: 45px;
+    /* margin: -1px auto 0px; */
+    border: none;
+    box-shadow: none;
+}
+.popover_inner .btn{
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid blue;
+    margin: 6px auto;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cancel_btn, .popover_inner .btn{
+    border-top: 1px solid #007ba4;
+    border-bottom: 1px solid #007ba4;
+}
+.cancel_btn{
+    background-color: #f50a0a;
+    color: white;
+    margin: 6px auto;
+    position: relative;
+    font-size: 1em;
+    border-radius: 6px;
+    display: block;
+    padding: 0px 12px 0px 12px;
+    line-height: 32px;
+    text-align: center;
+}
+.hide{
+    visibility: hidden;
+}

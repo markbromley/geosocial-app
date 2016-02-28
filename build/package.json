@@ -1,0 +1,28 @@
+{
+  "name": "blockhouse",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Bromley",
+  "license": "Commercial",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-util": "~3.0.7",
+    "jshint": "~2.9.1",
+    "gulp-jshint": "~2.0.0",
+    "jshint-stylish": "~2.1.0",
+    "almond": "~0.3.1",
+    "gulp-shell": "~0.5.2",
+    "gulp-sass": "~2.2.0",
+    "gulp-rename": "~1.2.2",
+    "yuidocjs": "~0.10.0",
+    "bower": "~1.7.7",
+    "gulp-clean": "~0.3.1"
+  },
+  "dependencies": {
+    "rjs": "~4.0.2"
+  }
+}

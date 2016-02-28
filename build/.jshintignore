@@ -1,0 +1,16 @@
+../src/www/js/libs
+../src/www/js/libs/almond
+../src/www/js/libs/backbone
+../src/www/js/libs/backbone-subview
+../src/www/js/libs/backbone.validation
+../src/www/js/libs/fastclick
+../src/www/js/libs/intel-appframework
+../src/www/js/libs/requirejs
+../src/www/js/libs/text
+../src/www/js/libs/underscore
+../src/www/js/internal-libs
+../src/www/js/app_constants.js
+
+/* To be updated */
+../src/www/js/router.js
+../src/www/js/main.js

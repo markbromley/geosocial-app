@@ -1,0 +1,185 @@
+/*Mobile Boilerplate Base Structure*/
+body{
+    font: 14px sans-serif;
+    font-weight: 100;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+/*Below the container, page, header, content and footer*/
+
+#app_container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(252,252,252);
+        /* Put the app into the Hardware Compositing layer right from the start */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+#content_wrapper{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    min-height: 100%;
+    /*background: rgb(255,255,255);*/
+}
+.page {
+    /*Probelm between absolute for page slider and relative for iscroll*/
+    position: fixed;
+    top: 64px; /*The height of the header bar */
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    /*height: 100%;*/
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+/*.page:before{
+    content: "Swipe left and right to navigate. ↔";
+    display: block;
+    position: relative;
+    font-size: 0.8em;
+    width: 150px;
+    text-align: center;
+    margin: -28px auto 0;
+}*/
+.header{
+        top: 0px;
+        border-bottom: 1px solid #0E5895;
+        z-index: 2;
+}
+.header, .footer {
+    position: fixed;
+    z-index: 2;
+    left: 0px;
+    right: 0px;
+    height: 44px;
+    background: #109adc;
+    color: #FFFFFF;
+}
+.footer{
+    bottom: 0px;
+    border-top: 1px solid #0E5895;
+}
+.header h1, .footer p {
+    font-size: 1.3em;
+    line-height: 44px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+
+.content_container{
+    /*padding: 70px 5px 45px;*/
+    /*position: absolute;*/
+    height: 100%;
+    left: 0px;
+    right: 0;
+    z-index: 1;
+}
+/*below buttons and error bar*/
+.btn, .two{
+	position: relative;
+	display: block;
+	padding: 0px 12px 0px 12px;
+	line-height: 32px;
+    text-align: center;
+
+}
+/*below content buttons*/
+.content_container .btn{
+	width: 200px;
+	margin: 10px auto 10px;
+	background-color: rgba(200,200,200,1);
+    border: 1px solid rgba(180,180,180,1);
+    color: rgba(30,30,30,1);
+}
+.content_container .btn:active {
+    background-color: rgba(190,190,190,1);
+}
+/*Below header buttons*/
+.header .btn, .header .two {
+    position: absolute;
+    top: 16px;
+    background-color: #0984c6;
+    border: 1px solid #0e5895;
+	color: #FFFFFF;
+}
+.header .btn{
+    left: 8px;
+}
+.header .two{
+    right: 8px;
+}
+
+.header .btn:active{
+    background-color: #0876b1;
+}
+.error_bar{
+	position: absolute;
+    z-index: 10000000;
+    left: 0px;
+    top: 64px;
+    right: 0px;
+    height: 24px;
+    line-height: 24px;
+    background: rgba(250,0,0,1);
+    text-align: center;
+    color: #ffffff;
+    /*font-weight: bold;*/
+    p{
+        position: absolute;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        left: 100%;
+        top: 0;
+        margin: 0px;
+/*      -webkit-animation: slideshow 15s linear infinite;
+      -moz-animation:    slideshow 15s linear infinite;*/
+    }
+}
+/*@-webkit-keyframes slideshow {
+  0%    { left: 100%; }
+  100%  { left: -350%; }
+}
+@moz-keyframes slideshow {
+  0%    { left: 100%; }
+  100%  { left: -350%; }
+}*/
+
+/*Below page slide transitions*/
+
+.page.left {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+.page.center {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.page.right {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.page.transition {
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+}
+
+.page.flat{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}

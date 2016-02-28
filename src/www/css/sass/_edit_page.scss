@@ -1,0 +1,72 @@
+#edit_profile_page, #edit_password_page, #edit_profile_pic_page{
+    .tab_view{
+        margin-left: 5px;
+        nav, ul{
+            position: relative;
+            display: block;
+            margin:0;
+            padding:0;
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            overflow: hidden;
+        }
+        ul{
+            margin-top: 5px;
+            list-style-type:none;
+            margin-bottom: 10px;
+        }
+        li{
+            display:inline-block;
+            height: 30px;
+            width: 30%;
+            margin-left: -5px;
+            background-color: transparent;
+            border: 1px solid $theme_color;
+        }
+        button, button:focus{
+            width: 100%;
+            height: 100%;
+            outline: none;
+            border: none;
+            box-shadow: none;
+            color: $theme_color;
+            line-height: 1.8em
+        }
+        li.active{
+            background-color: $theme_color;
+        }
+        .active button{
+            color: white;
+        }
+        li:first-of-type{
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+        li:last-of-type{
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+    }
+    h3,p{
+        position: relative;
+        display: block;
+        padding: 10px;
+        margin-bottom: -10px;
+    }
+    form{
+        margin-bottom: 70px;
+        position: relative;
+    }
+    .btn{
+        background: transparent;
+        height: $little_btn_height;
+        border: 1px solid $theme_color;
+        border-radius: 4px;
+        color: $theme_color !important;
+        left: 50%;
+        margin-left: -100px;
+
+    }
+
+}

@@ -1,0 +1,102 @@
+.colored-background{
+background: rgb(145,206,234); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(145,206,234,1) 0%, rgba(0,173,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(145,206,234,1)), color-stop(100%,rgba(0,173,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(145,206,234,1) 0%,rgba(0,173,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(145,206,234,1) 0%,rgba(0,173,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(145,206,234,1) 0%,rgba(0,173,237,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(145,206,234,1) 0%,rgba(0,173,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ceea', endColorstr='#00aded',GradientType=0 ); /* IE6-9 */
+
+}
+.developer{
+    /*display:none;*/
+}
+
+/*SASS Variables*/
+@import 'vars';
+
+/*reset for the mobile browser*/
+@import 'basic/reset';
+
+
+/*The basic CSS layout for any app*/
+@import 'basic/mobile_boilerplate_base';
+@import 'basic/tabbar_mixin';
+@import 'basic/forms_mixin';
+
+
+/*The CSS libs for this app*/
+@import 'libs/animate_custom';
+@import 'libs/ss_symbolicons_block';
+
+
+/*Generic widgets and layouts*/
+@import 'widgets/spinner';
+@import 'widgets/animation_settings';
+@import 'widgets/popover';
+@import 'widgets/feedback';
+@import 'widgets/post_dial';
+@import 'widgets/tab_view';
+
+@import 'widgets/rotation_classes';
+
+/*Cross platform design CSS*/
+@import 'header_and_footer';
+@import 'header';
+
+/*iOS platform specific structural and design CSS*/
+@import 'login_page';
+@import 'home_page';
+@import 'feed_page';
+@import 'settings_page';
+@import 'prof_page_1';
+@import 'terms_page';
+@import 'edit_prof_pic';
+@import 'signup_page_one';
+@import 'signup_page_two';
+@import 'post_detail_page';
+@import 'edit_page';
+@import 'change_pass';
+@import 'error_page';
+@import 'help_dial';
+@import 'force_logout';
+@import 'remote_kill';
+@import 'toggle';
+
+
+body{
+    background-size: 100% 100%;
+}
+
+.page, .page button{
+    color: $obj_color;
+}
+
+.page{
+    h1{
+        font-size: 1.9em;
+        line-height: 1.9em;
+    }
+    h2{
+        font-size: 1.7em;
+        line-height: 1.2em;
+    }
+    h3, h4, h5, h6{
+        font-size: 1.1em;
+        line-height: 0.8em;
+    }
+    p,a{
+        font-size: $para_anchor_size;
+    }
+}
+
+/* Force the hover state for the button presses - 
+    this should be put somewhere better...
+*/
+.btn:active{
+    background-color: $theme_highlight_color !important;
+}
+
+/* Fix for android 4.1 symbolset icons below */
+.ss-icon,[class^="ss-"],[class*=" ss-"],[class^="ss-"]:before,[class*=" ss-"]:before,[class^="ss-"].right:after[class*=" ss-"].right:after{text-rendering:auto!important}

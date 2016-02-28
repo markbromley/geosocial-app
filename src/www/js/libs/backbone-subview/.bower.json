@@ -1,0 +1,36 @@
+{
+  "name": "backbone-subview",
+  "version": "1.2.2",
+  "homepage": "https://github.com/ValeriiVasin/backbone-subview",
+  "authors": [
+    "Valerii Vasin <valerii.vasin@gmail.com>"
+  ],
+  "description": "Backbone mixin for managing subviews",
+  "main": "dist/subview.js",
+  "keywords": [
+    "backbone",
+    "mixin",
+    "subview",
+    "view",
+    "channel",
+    "event"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.2",
+    "commit": "85ea1ce903992253d3a64ecba668c3b4dfcc14bb"
+  },
+  "_source": "git://github.com/ValeriiVasin/backbone-subview.git",
+  "_target": "^1.2.2",
+  "_originalSource": "backbone-subview",
+  "_direct": true
+}

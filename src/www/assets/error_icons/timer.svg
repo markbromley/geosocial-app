@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="32px" viewBox="0 0 32 32" fill="#787878" enable-background="new 0 0 32 32" xml:space="preserve">
+<g id="Layer_3">
+	<g>
+		<g>
+			<path d="M16,0C7.16,0,0,7.164,0,16c0,8.836,7.16,16,16,16c8.836,0,16-7.164,16-16C32,7.164,24.836,0,16,0z M26.232,25.525
+				l-2.1-2.1c-0.195-0.195-0.512-0.195-0.707,0s-0.195,0.512,0,0.707l2.1,2.1c-2.387,2.223-5.543,3.619-9.025,3.743V27
+				c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5v2.975c-3.482-0.124-6.638-1.52-9.024-3.743l2.1-2.1
+				c0.195-0.195,0.195-0.512,0-0.707s-0.512-0.195-0.707,0l-2.1,2.1c-2.223-2.387-3.619-5.543-3.743-9.024H5
+				c0.276,0,0.5-0.224,0.5-0.5S5.276,15.5,5,15.5H2.025c0.124-3.482,1.52-6.638,3.743-9.024l2.1,2.1
+				c0.098,0.098,0.226,0.146,0.354,0.146s0.256-0.049,0.354-0.146c0.195-0.195,0.195-0.512,0-0.707l-2.1-2.1
+				c2.387-2.223,5.543-3.619,9.024-3.743V5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V2.025c3.482,0.124,6.638,1.52,9.025,3.743
+				l-2.1,2.1c-0.195,0.195-0.195,0.512,0,0.707c0.098,0.098,0.226,0.146,0.354,0.146s0.256-0.049,0.354-0.146l2.1-2.1
+				c2.223,2.387,3.619,5.543,3.743,9.025H27c-0.276,0-0.5,0.224-0.5,0.5s0.224,0.5,0.5,0.5h2.975
+				C29.851,19.982,28.455,23.138,26.232,25.525z"/>
+		</g>
+		<g>
+			<path d="M11.725,10.473c-0.096-0.029-0.195-0.044-0.293-0.044c-0.261,0-0.517,0.103-0.707,0.293
+				c-0.262,0.262-0.357,0.646-0.249,1c0.319,1.04,1.973,6.292,3.233,7.554c0.747,0.743,1.735,1.15,2.786,1.15
+				c1.051,0,2.039-0.408,2.783-1.148c0.746-0.748,1.156-1.737,1.156-2.789c0-1.053-0.41-2.042-1.155-2.784
+				C18.019,12.444,12.765,10.792,11.725,10.473z M18.573,18.57c-0.574,0.571-1.326,0.857-2.078,0.857s-1.504-0.286-2.078-0.857
+				c-1.148-1.15-2.984-7.141-2.984-7.141s5.992,1.834,7.141,2.984C19.721,15.559,19.721,17.42,18.573,18.57z"/>
+		</g>
+	</g>
+</g>
+<g id="nyt_x5F_exporter_x5F_info" display="none">
+	<text transform="matrix(1 0 0 1 -256 0)" display="inline"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">&lt;nyt_prefs&gt;</tspan><tspan x="0" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">  &lt;nyt_prefix&gt;&lt;/nyt_prefix&gt;</tspan><tspan x="0" y="28.8" font-family="'MyriadPro-Regular'" font-size="12">  &lt;nyt_suffix&gt;&lt;/nyt_suffix&gt;</tspan><tspan x="0" y="43.2" font-family="'MyriadPro-Regular'" font-size="12">  &lt;nyt_base_path&gt;~/Dropbox/Work/Symbolicons/Icon%20Sets/Symbolicons%20Air/pdf&lt;/nyt_base_path&gt;</tspan><tspan x="0" y="57.6" font-family="'MyriadPro-Regular'" font-size="12">  &lt;nyt_scaling&gt;200&lt;/nyt_scaling&gt;</tspan><tspan x="0" y="72" font-family="'MyriadPro-Regular'" font-size="12">  &lt;nyt_transparency&gt;true&lt;/nyt_transparency&gt;</tspan><tspan x="0" y="86.4" font-family="'MyriadPro-Regular'" font-size="12">  &lt;nyt_format&gt;PDF&lt;/nyt_format&gt;</tspan><tspan x="0" y="100.8" font-family="'MyriadPro-Regular'" font-size="12">  &lt;nyt_export_code&gt;artboards&lt;/nyt_export_code&gt;</tspan><tspan x="0" y="115.2" font-family="'MyriadPro-Regular'" font-size="12">&lt;/nyt_prefs&gt;</tspan></text>
+</g>
+</svg>

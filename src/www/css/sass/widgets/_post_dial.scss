@@ -1,0 +1,129 @@
+/*popover css below
+*/
+.popover, .popover_inner{
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+
+}
+.post_dial{
+    position: absolute;
+    z-index: 1000000;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.new_post{
+    position: absolute;
+    height: 306px;
+    width: 95%;
+    border-radius: 4px;
+    margin: auto;
+    top: 30px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: #f6f6f6;
+}
+.new_post form{
+    display: block;
+    width: 100%;
+    h4{
+        color: $obj_color;
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 0.6em;
+        margin-bottom: 10px;
+    }
+}
+.char_count{
+    position: absolute;
+    bottom: -165px;
+    right: 24px;
+    font-size: 1.2em;
+    color: rgb(150,150,150);
+}
+.new_post form textarea{
+    position: relative;
+    display: block;
+    margin: 0 0 10px 0;
+    border: none;
+    min-height: 210px;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+.new_post form textarea:focus{
+    background: white;
+}
+
+.new_post .bottom{
+    position: relative;
+    display: block;
+    bottom: -90px;
+}
+.new_post .top{
+    position: relative;
+    display: block;
+    height: 50px;
+    width: 100%;
+    /*background: $theme_color;*/
+    background: $theme_color;
+    border-bottom: 1px solid #DCDCDC;
+
+}
+.new_post .close, .new_post .choose_again, .new_post .rotate{
+    height: 35px;
+    position: absolute;
+    bottom: -160px;
+    width: 80px;
+    border: none;
+    box-shadow: none;
+    border-radius: 3px;
+    color: rgb(40,40,40);
+}
+.new_post .close{
+    position: absolute;
+    font-size: 1.5em;
+    bottom: 6px;
+    left: 5px;
+    color: white;
+    background-color: transparent;
+}
+.new_post .choose_again, .new_post .rotate{
+    background-color: transparent;
+    border: 1px solid $theme_color;
+    color: $theme_color;
+    font-size: 1.5em;
+    width: 40px;
+    padding-top: 4px;
+}
+.new_post .choose_again{
+    left: 20px;
+}
+.new_post .rotate{
+    left: 65px;
+}
+.new_post .submit{
+    position: absolute;
+    bottom: 0px;
+    font-size: 1.5em;
+    right: 5px;
+    width: 80px;
+    margin-left: -30px;
+    border: none;
+    background-color: transparent;
+    color: white !important;
+}
+.post_dial form img{
+    position: relative;
+    display: block;
+    margin: 70px auto 10px;
+    width: 250px;
+    height: 250px;
+
+}

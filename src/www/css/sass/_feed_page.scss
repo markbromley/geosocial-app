@@ -1,0 +1,86 @@
+#feed_page, #post_detail_page, .personal_post_holder{
+    text-align: center;
+    .post{
+        position: relative;
+        width: 95%;
+        margin: 5px;
+        background: rgb(252,252,252);
+        border: 1px solid rgb(230,230,230);
+        text-align: center;
+        display: inline-block;
+    }
+    .liked{
+    }
+    .not_liked{
+    }
+    #like{
+        background: none;
+        border: 1px solid $theme_color;
+        border-radius: 3px;
+        color: $theme_color;
+    }
+    footer{
+        display: none;
+        min-height: 20px;
+    }
+    header{
+        height: 36px;
+        ul{
+            width: 100%;
+            margin-left: -40px;
+            li{
+                line-height: 1.5em;
+                list-style: none;
+            }
+        }
+    }
+    .prof_im{
+        float: left;
+        margin-left: 5px;
+        margin-top: -1px;
+        border-radius: 100px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .content_im{
+        border-radius: 2px;
+        width: 90%;
+    }
+    li{
+        font-weight: normal;
+        font-size: 0.9em;
+        line-height: 0.4em;
+        text-align: left;
+        margin-left: 54px;
+    }
+    li.first{
+        font-size: 1.1em;
+        margin-top: -8px;
+        color: rgb(90,90,90);
+    }
+    li.first, li.second{
+        margin-left: 44px;
+    }
+    li.second, li.third, li.fourth{
+        font-size: 0.8em;
+    }
+    li.third, li.fourth{
+        float: right;
+        margin-top: -3.3em;
+        margin-right: 12px;
+    }
+    li.fourth{
+        margin-top: -1.6em;
+    }
+    .content{
+        background-color: white;
+        p {
+            color: rgb(90,90,90);
+            margin: auto;
+            padding: 15px 20px 15px;
+            font-size: 1.3em;
+            font-weight: 300;
+        }
+    }   
+}

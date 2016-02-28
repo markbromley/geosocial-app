@@ -1,0 +1,38 @@
+.help{
+    position: absolute;
+    min-height: 156px;
+    height: auto;
+    width: 95%;
+    border-radius: 7px;
+    margin: auto;
+    top: 85px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 4;
+    background: white;
+    box-shadow: 0px 0px 20px rgba(100,100,100,0.6);
+    padding-bottom: 35px;
+    color: rgb(100,100,100);
+    button{
+        position: relative;
+        display: block;
+        top: 5px;
+        left: 5px;
+        background: transparent;
+        border: 1px solid $theme_color;
+        border-radius: 100px;
+        color: $theme_color;
+        /*margin: auto;*/
+    }
+    h4{
+        text-indent: 23px;
+    }
+    p{
+        position: relative;
+        display: block;
+        margin: 22px;
+        font-weight: 100;
+        font-size: 1.1em;
+    }
+}

@@ -1,0 +1,24 @@
+#terms_page{
+    .leaflet{
+        position: relative;
+        display: block;
+        width: 97%;
+        margin: auto;
+        padding-left: 4px;
+        white-space: pre-line;
+    }
+    .leaflet>p{
+        /*margin-right: 20px;*/
+        margin-top: -30px;
+    }
+    h3{
+        padding-left: 10px;
+
+    }
+    embed{
+        width: 100%;
+        margin-left: -10px;
+        min-height: 340px;
+        font-family: arial;
+    }
+}

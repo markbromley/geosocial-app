@@ -1,0 +1,16 @@
+<section id="home_page" class="content_container error_page">
+    <img src="./assets/error_icons/<%=error_symbol%>" width="100px"alt="<%= error_name%>" />
+    <h3><%=error_name%></h3>
+    <p><%=description%></p>
+    <br />
+    <% if (show_dismiss=="true") { %>
+        <a class="btn" href="#home" title="Return to Skylivez">Dismiss</a>
+    <% } %>
+    <!--below for dev version only -->
+    <% if (show_spin=="true") { %>
+    <div class="spin"><span class="spin_inner"><p class="rot ss-icon">&#xE671</p></span><p class="large">Waiting...</p>
+    </div>
+    <% } %>
+    <br />
+    <!-- <p><%=id%></p> -->
+</section>

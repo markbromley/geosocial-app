@@ -1,0 +1,86 @@
+<!--Profile Page 1 Start-->
+<section id="profile_1_page" class="content_container">
+    <div class="main">
+        <span class="profile_image">
+            <img src="<%= prof_im_url_id %> " alt="<%= name %>" title="<%= name %>" />
+        </span>
+        <div class="data">
+            <h3><%= name %></h3>
+            <p><%= description %></p>
+             <% if (latest_loc_name) { %>
+             <h4 class="ss-crosshair"> Last seen near <%= latest_loc_name %> 
+             </h4><% }%>
+             <h3 class="subtitle">About <%= distance %> miles away</h3>
+        </div>
+        <ul>
+            <li><button id="friend_popup" class="ss-adduser"> Add Friend</button></li>
+            <li><button id="report_popup" class="ss-icon">&#x26A0; Report</button></li>
+            <li><button id="block_popup" class="ss-deleteuser"> Block</button></li> 
+        </ul>
+    </div>
+    <nav class="tab_view">
+        <ul>
+            <li class="active"><button id="info_show">Information</button></li>
+            <li><button id="post_show">Recent Posts</button></li>
+        </ul>
+    </nav>
+    <div class="info" id="info_section">
+        <p><b>Age: </b> 20s
+
+         <% if (rel_status) { %>
+            <b>Relationship Status: </b><%= rel_status %>
+         <% }%>
+
+        <% if (sexuality) { %>
+            <b>Sexuality: </b><%= sexuality %>
+        <% }%> 
+
+        <% if (weight) { %>
+            <b>Weight: </b> <%= weight %>
+        <% }%> 
+
+        <% if (height) { %>
+            <b>Height: </b> <%= height %>
+        <% }%> 
+
+        <% if (ethnicity) { %>
+            <b>Ethnicity: </b><%= ethnicity %>
+        <% } %>
+
+        <% if (eye_color) { %>
+            <b>Eye Colour: </b><%= eye_color %>
+        <% } %>
+
+        <% if (hair_color) { %>
+            <b>Hair Colour: </b><%= hair_color %>
+        <% } %>
+
+        <% if (political_views) { %>
+            <b>Political Views: </b><%= political_views %>
+        <% } %>
+        <% if (religous_views) { %>
+            <b>Religous Views: </b><%= religous_views %>
+        <% } %>
+
+        <% if (education) { %>
+            <b>Education: </b><%= education %>
+        <% } %>
+
+        <% if (pets) { %>
+            <b>Pets: </b><%= pets %>
+        <% } %>
+
+        <% if (work_status) { %>
+            <b>Work Status: </b><%= work_status %>
+        <% } %>
+
+        </p>
+
+    </div>
+    <!-- Below post container -->
+    <div id="all_posts_section">
+        <div class="personal_post_holder" data-subview="individualMyPostView"></div>
+    </div>
+    
+</section><!--/page-->
+<!--Profile Page 1 End-->

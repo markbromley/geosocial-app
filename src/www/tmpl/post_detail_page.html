@@ -1,0 +1,26 @@
+<section id="post_detail_page" class="content_container">
+    <section class="post">
+    <header>
+        <img class="prof_im" alt="<%= name %>" src="<%= prof_im_url %>" />
+        <ul>
+            <li class="first"><%= name %></li>
+            <li class="second ss-clock"> <%= date %></li>
+            <% if (distance != undefined) { %>
+                <li class="third ss-signpost"> <%= distance %> miles away</li>
+            <% } %>
+                <li class="fourth"><%= user_likes %> likes</li>
+        </ul>
+    </header>
+    <div class="content">
+        <% if (content_string) { %>
+            <p><%=content_string%></p>
+        <% } %>
+        <% if (img_url_id) { %>
+            <img class="content_im"alt="Post image." src="<%=img_url_id %>" style="background-image: url('<%=img_url_id %>');"/>
+        <% } %>
+        <button class="btn ss-like" id="like"> Like</button>
+    </div>
+    <footer>
+    </footer>
+</section>
+</section>

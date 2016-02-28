@@ -1,0 +1,29 @@
+{
+  "name": "blockhouse",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Mark Bromley"
+  ],
+  "license": "Commercial",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "almond": "^0.3.1",
+    "backbone": "^1.2.3",
+    "backbone.validation": "backbone-validation#^0.11.5",
+    "backbone-subview": "^1.2.2",
+    "fastclick": "^1.0.6",
+    "intel-appframework": "^2.1.1",
+    "requirejs": "^2.1.22",
+    "text": "requirejs-text#^2.0.14"
+  }
+}

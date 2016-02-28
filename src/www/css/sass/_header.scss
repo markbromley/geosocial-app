@@ -1,0 +1,36 @@
+.header{
+    .btn{
+        height: 32px;
+        width: 70px;
+        padding: 0;
+        margin: 0;
+        top: 19px;
+        left: -10px;
+        background: none;
+        border: none;
+        padding-top: 10px;
+        padding-right: 20px;
+        line-height: 30px;
+        font-size: 25px;
+        color: $theme_color;
+        img{
+            height: 21px;
+        }
+    }
+    #back_button:active{
+        background: transparent !important;
+    }
+    .btn:hover{
+        background: none;
+    }
+    #header_refresh{
+        position: absolute;
+        right: 7px;
+        top: 31px;
+        border: none;
+        background: transparent;
+        color: $theme_color;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}

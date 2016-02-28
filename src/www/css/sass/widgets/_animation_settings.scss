@@ -1,0 +1,9 @@
+.blur{
+    -webkit-filter: blur(5px);
+}
+.animated {
+    -webkit-animation-duration: 0.8s;
+       -moz-animation-duration: 0.8s;
+         -o-animation-duration: 0.8s;
+            animation-duration: 0.8s;
+}

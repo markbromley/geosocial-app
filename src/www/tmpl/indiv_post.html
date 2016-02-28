@@ -1,0 +1,25 @@
+<a class="post animated fadeIn" href="#feed/<%= id %>" title="Post">
+    <header>
+        <img class="prof_im" alt="<%= name %>" src="<%= prof_im_url_id %>" />
+        <ul>
+            <li class="first"><%= name %></li>
+            <li class="second ss-clock"> <%= date %></li>
+            <% if (distance != undefined) { %>
+                <li class="third ss-signpost"> <%= distance %> miles away</li>
+            <% } %>
+            <% if(user_likes){ %>
+                <li class="fourth ss-like"> <%= user_likes %> likes</li>
+            <% } %>
+        </ul>
+    </header>
+    <div class="content">
+        <% if (content_string) { %>
+            <p><%=content_string%></p>
+        <% } %>
+        <% if (img_url_id) { %>
+        	<img class="content_im"alt="Post image." src="<%=img_url_id %>" style="background-image: url('<%=img_url_id %>');"/>
+        <% } %>
+    </div>
+    <footer>
+    </footer>
+</a>

@@ -1,0 +1,57 @@
+#edit_profile_pic_page{
+    .btn{
+        height: $little_btn_height;
+    }
+    .edit{
+        position: relative;
+        display: block;
+        margin: -9px auto;
+        text-align: center;
+        button{
+            margin-top: 20px;
+            /*background: #00aeef;*/
+            /*border: none;*/
+            color: white;
+        }
+    }
+    h3{
+        font-weight: 100;
+    }
+    .edit p{
+        font-weight: normal;
+        text-align: center;
+        font-size: $para_anchor_size;
+        line-height: $para_anchor_size;
+    }
+    .edit_photo{
+        position: relative;
+        display: table;
+        width: 100%;
+        height: 45px;
+        margin: 0px auto 0px;
+        background: white;
+        border: 1px solid #C7C7C7;
+    }
+    .edit_photo p{
+        float:right;
+        clear: right;
+        margin-right: 50%;
+        font-size: 1em;
+        line-height: 0.1em;
+    }
+    .edit_photo img{
+        position: relative;
+        display: block;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 45px;
+        height: 45px;
+    }
+    .edit .helper{
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+}

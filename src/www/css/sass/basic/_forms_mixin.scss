@@ -1,0 +1,92 @@
+/*Forms CSS mixin*/
+
+form{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto 10px;
+    font-size: $para_anchor_size;
+    text-align: center;
+
+    fieldset{
+        width: 100%;
+        border: none;
+    }
+    legend, fieldset, label, input, textarea, select{
+        margin: 0;
+        padding: 0;
+        padding-left: 6px;
+    }
+    legend{
+        position: absolute;
+        text-indent: -100000px;
+    }
+
+    input, select, textarea, label, fieldset{
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background: white;
+      color: white;
+    }
+
+    /*Below deals with generic inputs and labels*/
+    input, select, label, textarea, .form_date{
+        float: left;
+        clear: right;
+        display: block;
+        height: 44px;
+        margin-top: -3px;
+        line-height: 44px;
+        border-bottom: 1px solid $table_border_col;
+        border-top: 1px solid $table_border_col;
+        border-right: none;
+        border-left: none;
+        color: black !important;
+    }
+
+    input, select, textarea, .form_date{
+        margin-left: -1px;
+        width: 68%;
+        /*border-left: 1px solid $table_border_col;*/
+    }
+/*  input:focus, select:focus,textarea:focus{
+        background: rgba(237, 249, 253, 1);
+    }*/
+
+    label{
+        width: 32%;
+        text-indent: -60px;
+        text-align: right;
+        font-weight: bold;
+        padding-right: 7px;
+        margin-bottom: -1px;
+    }
+    select:last-of-type{
+        height: 44px;
+    }
+    /*Below deals with fieldsets and legends*/
+
+    select{
+        border-radius: 0px;
+        height: 46px;
+        text-indent: 4px;
+    }
+}
+/*Below the styles for the date input*/
+.form_date{
+    padding: 0;
+    right: 0;
+}
+.form_date select{
+    width: 33.333%;
+    margin: 0;
+    left: 0;
+    border: 0;
+    border-right: 1px solid $table_border_col;
+    border-radius: 0;
+}
+.form_date select:last-of-type{
+    border-right: 0;
+}
+
