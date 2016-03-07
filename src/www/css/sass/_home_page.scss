@@ -24,13 +24,13 @@
         margin: 0px auto 0px;
         width: 75px;
         height: 75px;
-        border-radius: 0px;
+        border-radius: 100%;
         z-index: 10;
     }
     span>img{
         width: 75px;
         height: 75px;
-        border-radius: 0px;
+        border-radius: 100%;
     }
 }
 #home_page, #friend_page, #profile_1_page, #blocks_page{
@@ -91,7 +91,7 @@
         position: relative;
         display: inline-block;
         width: 104px;
-        height: 103px;
+        height: 135px;
         margin: 0;
         text-align: center;
         padding: 0;
@@ -126,18 +126,7 @@
         padding:0;
     }
 
-    /*Below CSS targets the user results sphere's text*/
-    figure>figcaption{
-        top: -105px;
-        left: 0px;
-        z-index: 11;
-        position: relative;
-        display: table-cell;
-        width: 105px;
-        height: 105px;
-        text-align:left;
-        text-indent: 6px;
-        vertical-align: bottom;
+    span.user_image::after {
         background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(59%, rgba(0,0,0,0)), color-stop(99%, #000), color-stop(100%, #000));
         background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
@@ -145,7 +134,28 @@
         background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
         background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 59%, #000 99%, #000 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 100%;
+    }
 
+    /*Below CSS targets the user results sphere's text*/
+    figure>figcaption{
+        top: -78px;
+        left: 0px;
+        z-index: 11;
+        position: relative;
+        display: table-cell;
+        width: 105px;
+        height: 105px;
+        text-align: center;
+        /*text-indent: 6px;*/
+        vertical-align: bottom;
+        
     }
 
     figure>figcaption>p{
@@ -160,11 +170,11 @@
         overflow: hidden;
         text-decoration: none;
         text-overflow: ellipsis;
-        color: #FFFFFF;
+        /*color: #FFFFFF;*/
         vertical-align: bottom;
     }
     figure>figcaption>p:first-of-type{
-        color: rgb(255,255,255);
+        /*color: rgb(255,255,255);*/
     }
 
     figure>figcaption>p:last-of-type{
