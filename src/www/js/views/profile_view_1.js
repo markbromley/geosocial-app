@@ -32,7 +32,6 @@ define([
                 var that = this;
                 this.options = options;
                 //user model
-                console.log(that.options);
                 this.model = new UserModel({id: this.options.id});
 
                 this.model.fetch({

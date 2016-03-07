@@ -28,9 +28,11 @@ define([
             * Creates a new error collection and initialise view.
             *
             * @method initialize
+            * @param {object} options The view options.
             */
-            initialize: function(){
+            initialize: function(options){
                 this.collection = new ErrorCollection(this.errors);
+                this.options = options;
                 this.render();
             },
 
