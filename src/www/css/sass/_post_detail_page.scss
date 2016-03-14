@@ -1,4 +1,35 @@
 #post_detail_page{
+    /*Below CSS targets the user results spheres*/
+    text-align: center;
+    a{
+        position: relative;
+        position:relative;
+        padding:0;
+        margin-left:-1px;
+    }
+    figure{
+        position: relative;
+        display: block;
+        min-width: 90px;
+        margin: 0px auto 15px;
+        text-align: center;
+    }
+    figure>span{
+        position: relative;
+        display: block;
+        margin: 0px auto 0px;
+        width: 75px;
+        height: 75px;
+        border-radius: 100%;
+        z-index: 10;
+    }
+    span>img{
+        width: 75px;
+        height: 75px;
+        border-radius: 100%;
+    }
+}
+#post_detail_page{
     font-size: 11px;
     .content p{
         font-size: 2.2em;

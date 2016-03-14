@@ -1,8 +1,4 @@
-#home_page,
-#friend_page,
-#blocks_page,
-#profile_1_page,
-#post_detail_page{
+#home_page{
     /*Below CSS targets the user results spheres*/
     text-align: center;
     a{
@@ -33,7 +29,7 @@
         border-radius: 100%;
     }
 }
-#home_page, #friend_page, #profile_1_page, #blocks_page{
+#home_page{
 /*Below CSS targets the user results spheres*/
     text-align: center;
     /*padding-top: 3px;*/
