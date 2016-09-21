@@ -8,10 +8,7 @@ require.config({
         'fastclick' : 'js/libs/fastclick/lib/fastclick',
         'pageslider' : 'js/internal-libs/pageslider',
         'backbonesubviews': 'js/libs/backbonesubviews',
-        'bbvalidation': 'js/libs/backbone.validation/src/backbone-validation-amd',
-        // 'bbstickit' : 'js/libs/backbone_stickit',
-        //new libs below here
-        // 'hammer' : 'js/libs/hammer'
+        'bbvalidation': 'js/libs/backbone.validation/src/backbone-validation-amd'
     },
     waitSeconds: 500,
     shim:{
@@ -25,14 +22,6 @@ require.config({
         'backbonesubviews':{
             'deps':['backbone']
         }
-        // ,
-        // 'bbstickit':{
-        //     'deps':['backbone']
-        // }
-        // 'hammer':{
-        //     'exports': 'Hammer'
-        // }
-        //new libs below here
     },
     //below for dev purposes-- allows to refresh url append to datetimes stamp and prevent default caching when in Webkit browser
     urlArgs: "bust=" + (new Date()).getTime()
